@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background: hsl(0, 0%, 95%);
+   width: 100%;
+   height: 100vh;
+   align-items: center;
+   font-size: 15px;
+   display: flex;
+}
+.all-text{
+    display: flex;
+    margin: 0 auto;
+    max-width: 760px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.models{
+    display: flex;
+    margin: 0 auto;
+    max-width: 760px;
+    font-family: 'Lexend Deca', sans-serif; 
+}
+.sedans{
+    background: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+.icon{
+    margin: 1rem;
+}
+.car-model{
+    letter-spacing: 0.1rem;
+    color: #fff;
+    margin: 2rem;
+    font-family: 'Big Shoulders Display',
+    cursive;
+}
+.abt-sedans{
+    color: #fff;
+    margin: 2rem;
+    line-height: 1.3rem;
+}
+.learn-1{
+    padding: 0.7rem 2rem;
+    border-radius: 3rem;
+    border: none;
+    margin: 2rem;
+    color: hsl(31, 77%, 52%) 
+}
+.learn-1:hover{
+    color: #fff;
+    background: hsl(179, 100%, 13%);
+}
+.suvs{
+    background:hsl(184, 100%, 22%) ;
+}
+.icon-2{
+    margin: 1rem;
+}
+.car-model-2{
+    letter-spacing: 0.1rem;
+    color: #fff;
+    margin: 2rem;
+    font-family: 'Big Shoulders Display',
+    cursive;
+}
+.abt-suvs{
+    color: #fff;
+    margin: 2rem;
+    line-height: 1.3rem;
+}
+.learn-2{
+    padding: 0.7rem 2rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    border: none;
+    color: hsl(184, 100%, 22%);
+}
+.learn-2:hover{
+    color: #fff;
+    background: hsl(179, 100%, 13%);
+}
+.luxury{
+background:hsl(179, 100%, 13%) ;
+border-bottom-right-radius: 0.5rem;
+border-top-right-radius: 0.5rem;
+}
+.icon-3{
+    margin: 1rem;
+}
+.car-model-3{
+    letter-spacing: 0.1rem;
+    color: #fff;
+    margin: 2rem;
+    font-family: 'Big Shoulders Display',
+    cursive;
+}
+.abt-luxury{
+    color: #fff;
+    margin: 2rem;
+    line-height: 1.3rem;
+}
+.learn-3{
+    padding: 0.7rem 2rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    border: none;
+    color:hsl(179, 100%, 13%) ;
+}
+.learn-3:hover{
+    color: #fff;
+    background: hsl(31, 77%, 52%);
+}
+
+@media (min-width: 600px) {
+    .all-text {
+      justify-items: left;
+    }
+  }
+  @media (max-width: 800px) {
+    .all-text {
+      flex-wrap: wrap;
+    }
+  }
